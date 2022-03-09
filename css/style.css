@@ -1,0 +1,33 @@
+/* Universal Selector */
+*{
+    text-align: center;
+    color: white;
+}
+/* id selector */
+#admin-box{
+    background-color:black;
+    width: 500px;
+}
+/* Descendant Selector */
+form input{
+    width: 90%;
+}
+/* Attribute Selectors */
+input[type="submit"]{
+    width: 50%;
+    color: red;
+}
+p a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a{
+    color: blue;
+}
+/* psudo class selectr */
+input[type="submit"]:hover{
+    background-color: purple;
+    cursor: pointer;
+    color: blue;
+
+}
